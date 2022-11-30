@@ -144,3 +144,35 @@ img{
     color: var(--main-btn-color);
 }
 /****** HEADER STYLES END ******/
+
+/****** MAIN STYLES START ******/
+.site-main{
+    background-color: var(--main-bg-color);
+}
+
+/*** HERO SECTION STYLES START ***/
+.hero-section{
+    background-image: url("../images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay-bg{
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background-image: url("../images/hero-bg-right-img.png");
+    background-position: calc(50% + 675px) center;
+    background-repeat: no-repeat;
+    background-color: rgba(47, 59, 89, 0.75);
+}
+
+.hero-section__title{
+    margin: 0;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: var(--main-bg-color);
+}
+/*** HERO SECTION STYLES END ***/
+/****** MAIN STYLES END ******/
+
